@@ -20,7 +20,6 @@ makedepends=(
   p7zip
   zip
   unzip
-  mingw-w64-x86_64-toolchain
   mingw-w64-x86_64-nim
   mingw-w64-x86_64-mpfr
 )
