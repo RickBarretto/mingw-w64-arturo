@@ -40,5 +40,5 @@ build() {
 }
 
 package() {
-  install -d "$pkgdir/opt/arturo" "${srcdir}/bin"
+  install -d "$pkgdir/opt/arturo" "$srcdir/arturo-$pkgver/bin"
 }
