@@ -26,7 +26,6 @@ jobs:
             mingw-w64-x86_64-toolchain
             mingw-w64-x86_64-nim
             mingw-w64-x86_64-mpfr
-            mingw-w64-cross-makepkg
 
       - name: Build and install package
         shell: msys2 {0}
