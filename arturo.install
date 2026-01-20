@@ -4,7 +4,7 @@ pre_install() {
 }
 
 post_install() {
-  mv /opt/arturo/* ~/.arturo/bin/
+  mv /opt/arturo/* ~/.arturo/
 
   echo "Current Arturo's Home"
   ls ~/.arturo/bin/
