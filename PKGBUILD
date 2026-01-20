@@ -38,7 +38,7 @@ prepare() {
   git clone https://github.com/nim-lang/Nim "$srcdir/Nim"
   cd "$srcdir/Nim"
   git checkout v2.2.6
-  build_all.bat
+  cmd //C build_all.bat
 }
 
 build() {
