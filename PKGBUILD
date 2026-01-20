@@ -34,11 +34,8 @@ options=(
   !strip
 )
 
-prepare() {
-  unzip "arturo-${pkgver}.zip" "${srcdir}"
-}
-
 build() {
+  cd "$srcdir"
   nim build.nims -l
 }
 
