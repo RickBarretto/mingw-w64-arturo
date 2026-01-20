@@ -24,7 +24,7 @@ makedepends=(
   mingw-w64-x86_64-mpfr
 )
 source=("https://github.com/arturo-lang/arturo/archive/refs/tags/v${pkgver}.zip")
-sha256sums=('77b724d37fc70d3fb5d8d040b3c8ead103cf8323c1c32a650ccdba4465df6d86')
+sha256sums=('D7317D3DD0DA4E72F60F08242D332D2C807A3E8CBF790B6B2FD20E81ADE008FC')
 
 install=arturo.install
 
@@ -35,7 +35,7 @@ options=(
 )
 
 prepare() {
-  unzip "v${pkgver}.zip" "${srcdir}"
+  unzip "arturo-${pkgver}.zip" "${srcdir}"
 }
 
 build() {
