@@ -18,7 +18,6 @@ depends=(
   mingw-w64-x86_64-mpfr
   mingw-w64-x86_64-gcc-libs
   mingw-w64-x86_64-sqlite3
-  mingw-w64-x86_64-webview
 )
 
 makedepends=(
@@ -68,6 +67,8 @@ package() {
   )
 
   for dll in "${dlls[@]}"; do
-    cp "/mingw64/bin/$dll" "$bindir/"
+    if [ -f "/mingw64/bin/$dll" ]; then
+      cp "/mingw64/bin/$dll" "$bindir/"
+    fi
   done
 }
