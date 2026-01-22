@@ -22,10 +22,11 @@ depends=(
 
 makedepends=(
   base-devel
-  git
-  zip
-  unzip
   gcc
+  git
+  mingw-w64-x86_64-nim
+  unzip
+  zip
 )
 
 source=("https://github.com/arturo-lang/arturo/archive/refs/tags/v${pkgver}.zip")
