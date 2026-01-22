@@ -24,9 +24,9 @@
 </p>
 
 <p align="center">
-    <img alt="GitHub License" src="https://img.shields.io/github/license/RickBarretto/mingw-w64-arturo?style=flat-square">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/arturo-lang/mingw64?style=flat-square">
     &nbsp;
-    <img alt="GitHub branch status" src="https://img.shields.io/github/checks-status/RickBarretto/mingw-w64-arturo/main?style=flat-square">
+    <img alt="GitHub branch status" src="https://img.shields.io/github/checks-status/arturo-lang/mingw64/main?style=flat-square">
 </p>
 
 ## Prerequisites
@@ -39,7 +39,7 @@
 **Compiling from source**
 
 ```sh
-$ git clone https://github.com/RickBarretto/mingw-w64-arturo
+$ git clone https://github.com/arturo-lang/mingw64 mingw-w64-arturo
 $ cd mingw-w64-arturo
 $ makepkg -si
 ```
