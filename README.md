@@ -25,8 +25,7 @@
 
 <p align="center">
     <img alt="GitHub License" src="https://img.shields.io/github/license/RickBarretto/mingw-w64-arturo?style=flat-square">
-</p>
-<p align="center">
+    &nbsp;
     <img alt="GitHub branch status" src="https://img.shields.io/github/checks-status/RickBarretto/mingw-w64-arturo/main?style=flat-square">
 </p>
 
