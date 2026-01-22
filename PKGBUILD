@@ -18,13 +18,13 @@ depends=(
   mingw-w64-x86_64-mpfr
   mingw-w64-x86_64-gcc-libs
   mingw-w64-x86_64-sqlite3
+  mingw-w64-x86_64-nim
 )
 
 makedepends=(
   base-devel
   gcc
   git
-  mingw-w64-x86_64-nim
   unzip
   zip
 )
