@@ -22,6 +22,7 @@ depends=(
 
 makedepends=(
   base-devel
+  dos2unix
   git
   zip
   unzip
