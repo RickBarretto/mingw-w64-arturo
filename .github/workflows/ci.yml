@@ -17,15 +17,6 @@ jobs:
         with:
           msystem: MINGW64
           update: true
-          install: >-
-            base-devel
-            git
-            p7zip
-            zip
-            unzip
-            mingw-w64-x86_64-toolchain
-            mingw-w64-x86_64-nim
-            mingw-w64-x86_64-mpfr
 
       - name: Build and install package
         shell: msys2 {0}
