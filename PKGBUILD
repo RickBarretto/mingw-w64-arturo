@@ -36,7 +36,7 @@ makedepends=(
   zip
   unzip
 
-  # Since I can't use toolchain group,
+  # Since I can't use mingw-w64-x86_64-toolchain group,
   # I decided to add the packages manually.
   mingw-w64-x86_64-binutils
   mingw-w64-x86_64-crt
