@@ -26,7 +26,7 @@ jobs:
           set -euxo pipefail
           dos2unix PKGBUILD
           dos2unix arturo.install
-          MINGW_ARCH=mingw64 makepkg-mingw -sif --noconfirm --noprogressbar --skippgpcheck
+          MINGW_ARCH=ucrt64 makepkg-mingw -sif --noconfirm --noprogressbar --skippgpcheck
 
       - name: Debug and verify installation
         shell: msys2 {0}
