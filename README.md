@@ -60,11 +60,11 @@ This will:
 
 ## What you need to know
 
-By installing this package, your system PATH will be modified
+By installing this package, your system `$PATH` will be modified
 in order to add `~/.arturo/bin` and `~/.arturo/packages/bin` into your `$PATH`.
 
 Don't worry too much, we also have made scripts to uninstall Arturo
-and to clean up your PATH from those entries. :wink:
+and to clean up your `$PATH` from those entries. :wink:
 
 
 ## Update and Remove
