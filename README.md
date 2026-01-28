@@ -87,3 +87,12 @@ $ makepkg -si
 ```sh
 $ pacman -R mingw-w64-x86_64-arturo
 ```
+
+
+## Special Thanks
+
+Thanks a lot for [@MehdiChinoune](https://github.com/MehdiChinoune) 
+for your contribution, and allow us to have our package to be 
+accepted at MINGW's repository.
+
+See: [arturo: add version 0.10.0 - Arizona Bark (new package) #27514](https://github.com/msys2/MINGW-packages/pull/27514)
