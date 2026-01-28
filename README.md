@@ -71,6 +71,10 @@ and to clean up your `$PATH` from those entries. :wink:
 
 ### Update
 
+```sh
+$ pacman -U mingw-w64-arturo
+```
+
 **Recompiling from source**
 
 ```sh
