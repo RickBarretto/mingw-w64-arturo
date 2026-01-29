@@ -38,7 +38,7 @@
 ## How to use
 
 ```sh
-$ pacman -S mingw-w64-arturo
+$ pacman -S mingw-w64-ucrt-x86_64-arturo
 ```
 
 **Compiling from source**
@@ -54,7 +54,7 @@ This will:
 - Install dependencies from MSYS2's repository.
 - Compile Nim 2.2.6 from source for build-only.
 - Compile Arturo 0.10.0 (Arizona Bark) from source along with its dependencies.
-- Install the `mingw-w64-arturo` package system-wide.
+- Install the `mingw-w64-ucrt-x86_64-arturo` package system-wide.
 
 ## What you need to know
 
@@ -73,7 +73,7 @@ and to clean up your `$PATH` from those entries. :wink:
 ### Update
 
 ```sh
-$ pacman -U mingw-w64-arturo
+$ pacman -U mingw-w64-ucrt-x86_64-arturo
 ```
 
 **Recompiling from source**
@@ -87,7 +87,7 @@ $ makepkg -si
 ### Remove
 
 ```sh
-$ pacman -R mingw-w64-arturo
+$ pacman -R mingw-w64-ucrt-x86_64-arturo
 ```
 
 
